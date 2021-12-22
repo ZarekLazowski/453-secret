@@ -1,0 +1,21 @@
+Zarek Lazowski
+
+USER INFO:
+This program is a device driver written specifically for Minix 3.1.8 as a 
+secret keeping character device. Meaning any user can write to the device
+however, once a write has been made to the device, only that user can read
+from the device. 
+
+The device can only keep one secret at a time, and has a max character limit
+of 8192 characters.
+
+This was created in a virtual Minix 3.1.8 environment, and is not intended
+to run outside of said environment.
+
+INSTRUCTIONS:
+The provided makefile creates the binary associated with the secret keeper.
+
+Changes to the Minix sources need to be made to support the secret keeper.
+
+More information about the behaviour of the secret keeper can be found in 
+the provided report.pdf file. 
